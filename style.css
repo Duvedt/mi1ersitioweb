@@ -38,6 +38,8 @@ header .logo{
 
 
 #navegar{
+    background-color: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +47,7 @@ header .logo{
 
 
 header nav{
+    background-color: white;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -52,19 +55,32 @@ header nav{
 }
 
 header a{
-    padding: 5px 12px;
+    background-color: white;
+    padding: 10px 24px;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: #525252;
 }
 
 header a:hover{
     color: #FC7988;
 }
 
+header .navegar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Imagen1{
+    text-align: center;
+}
+
+
 #Imagen1 .imagen {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 100%;
     text-align: center;
     box-shadow: 0px 0px 10px 5px rgba(207, 205, 205, 0.5);
