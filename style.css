@@ -54,6 +54,14 @@ h3{font-size: 2em;
     transition: 1s;
 }
 
+
+
+#Albumnes h3{
+    text-align: center;
+}
+
+
+
 #video p {font-size: 2em;
     background-color: white;
     color: #525252;
